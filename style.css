@@ -13,6 +13,21 @@ header {
   padding: 2rem 0;
   text-align: center;
 }
+.header-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.header-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #00c7b7;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 header nav a {
   color: #fff;
