@@ -21,15 +21,15 @@ header {
 }
 
 .header-photo {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 1500px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid #00c7b7;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   position: absolute;
   top: 50px;   
-  left: 100px; 
+  left: 50px; 
 }
 
 header nav a {
@@ -118,5 +118,6 @@ footer {
     transform: translateY(0);
   }
 }
+
 
 
