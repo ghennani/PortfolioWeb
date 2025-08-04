@@ -33,16 +33,34 @@ header {
 }
 
 header nav a {
-  color: #fff;
+  color: #00c853; /* ✅ vert par défaut */
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
+  position: relative;
 }
 
 header nav a:hover {
-  color: #368a83;
+  color: #00e676; /* ✅ vert clair au survol */
 }
+
+/* (optionnel) Soulignement animé */
+header nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: #00e676;
+  transition: width 0.3s ease;
+}
+
+header nav a:hover::after {
+  width: 100%;
+}
+
 
 /* Container */
 .container {
@@ -171,6 +189,7 @@ footer {
     height: auto;
   }
 }
+
 
 
 
