@@ -9,7 +9,7 @@ body {
 
 /* Header styles */
 header {
-  background: #3a3a3a;
+  background: #470912;
   color: white;
   padding: 2rem 0;
   text-align: center;
@@ -171,3 +171,4 @@ footer {
     height: auto;
   }
 }
+
