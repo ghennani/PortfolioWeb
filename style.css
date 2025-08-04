@@ -41,7 +41,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #000807;
+  color: #368a83;
 }
 
 /* Container */
@@ -171,6 +171,7 @@ footer {
     height: auto;
   }
 }
+
 
 
 
