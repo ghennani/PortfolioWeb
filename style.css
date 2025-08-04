@@ -28,6 +28,26 @@ header {
   border: 3px solid #00c7b7;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+.about-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-photo {
+  flex: 1 1 250px;
+}
+
+.about-photo img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 10px; /* coins légèrement arrondis */
+  border: 3px solid #00c7b7; /* même couleur que les autres éléments */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* ombre douce */
+  object-fit: cover;
+}
 
 
 header nav a {
@@ -116,6 +136,7 @@ footer {
     transform: translateY(0);
   }
 }
+
 
 
 
