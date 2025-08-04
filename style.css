@@ -21,7 +21,7 @@ header {
 }
 
 .header-photo {
-  width: 200px; /* plus large */
+  width: 220px; /* plus large */
   height: 100px; /* plus court */
   border-radius: 0;
   object-fit: cover;
@@ -116,6 +116,7 @@ footer {
     transform: translateY(0);
   }
 }
+
 
 
 
