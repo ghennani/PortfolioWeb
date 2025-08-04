@@ -10,9 +10,9 @@ header {
 /* Flex layout */
 .header-flex {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
+  align-items: left;
+  justify-content: left;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
@@ -96,3 +96,4 @@ header nav a:hover::after {
     max-width: 300px;
   }
 }
+
